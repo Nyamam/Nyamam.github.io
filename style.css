@@ -227,8 +227,9 @@ footer {
  }
 
 .phone {
+	list-style-type: none;
 	color: white;
-	font-weight: 800;
+
 }
 
 
