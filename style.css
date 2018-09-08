@@ -228,7 +228,6 @@ footer {
 
  .mail {
 	text-decoration: none;
-	font-size: 1.5em;
 	color: white;
 }
 
@@ -275,14 +274,14 @@ p.copyright {
 
 	.mail {
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1.3em;
 	color: white;
 }
 
  .phone {
  	text-decoration: none;
  	color: white;
- 	font-size: 2em;
+ 	font-size: 1.3em;
 
  }
 
@@ -315,14 +314,14 @@ header h1 {
 
 .mail {
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1.3em;
 	color: white;
 }
 
  .phone {
  	text-decoration: none;
  	color: white;
- 	font-size: 2em;
+ 	font-size: 1.3em;
 
  }
 .menulist {
