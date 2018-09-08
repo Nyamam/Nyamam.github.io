@@ -228,10 +228,16 @@ footer {
 
 .mail {
 	text-decoration: none;
-	font-size: 3em;
+	font-size: 2.5em;
 	color: white;
-
 }
+
+ .phone {
+ 	color: white;
+ 	font-size: 2em;
+
+ }
+
 
 
 /*---------Responsive */
