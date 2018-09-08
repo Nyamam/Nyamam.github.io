@@ -227,8 +227,8 @@ footer {
  }
 
 .mail {
-	list-style-type: none;
-	font-size: 2em;
+	text-decoration: none;
+	font-size: 3em;
 	color: white;
 
 }
