@@ -226,18 +226,13 @@ footer {
     color: white;
  }
 
-.mail {
+ .mail {
 	text-decoration: none;
-	font-size: 2.3em;
+	font-size: 1.5em;
 	color: white;
 }
 
- .phone {
- 	text-decoration: none;
- 	color: white;
- 	font-size: 2em;
 
- }
 
 
 
@@ -278,6 +273,19 @@ p.copyright {
 
 @media (max-width: 920px) {
 
+	.mail {
+	text-decoration: none;
+	font-size: 2em;
+	color: white;
+}
+
+ .phone {
+ 	text-decoration: none;
+ 	color: white;
+ 	font-size: 2em;
+
+ }
+
 .ordersection {
 	
 	width:100%;
@@ -304,6 +312,19 @@ header h1 {
 
 @media (max-width: 530px) {
 
+
+.mail {
+	text-decoration: none;
+	font-size: 2em;
+	color: white;
+}
+
+ .phone {
+ 	text-decoration: none;
+ 	color: white;
+ 	font-size: 2em;
+
+ }
 .menulist {
 	flex-direction: column;
 	align-items: center;
