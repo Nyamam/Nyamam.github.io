@@ -226,6 +226,10 @@ footer {
     color: white;
  }
 
+.phone {
+	color: white;
+	font-weight: 700;
+}
 
 
 /*---------Responsive */
