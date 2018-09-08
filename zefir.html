@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Nyamam_Number_One</title>
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat|Tangerine" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.min.css">
+	</head>
+
+<style>
+
+	body {
+		padding-bottom: 250px;
+		font-size: 62.5%;
+		font-family: "Open Sans",cursive;
+		color: white;
+		max-width: 1080px;
+		margin: 0 auto;
+		background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+		}
+
+	.gallery {
+		width: 400px;
+		height: 400px;
+		margin: 0 auto;
+	}
+
+	.galleryItem img {
+		width: 400px;
+		height: 400px;
+	}
+	
+	h1 {
+		font-family: 'Tangerine', cursive;
+		font-size: 4em;
+		color: white;
+		text-align: center;	
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+
+	h2 {
+		font-family: 'Amatic SC', cursive;
+ 		font-size: 2em;
+ 		color:rgb(139,0,0);
+	}
+
+	h4 {
+		font-family: 'Tangerine', cursive;
+		font-size: 5em;
+		color: red;
+
+	}
+	
+	ul {
+		font-family: 'Amatic SC', cursive;
+		font-size: 2em;
+	}
+
+	.info {
+		display: flex;
+		justify-content: space-around;
+		padding-top: 50px;
+		text-align: center;
+	}
+
+	p {
+		font-family: 'Amatic SC', cursive;
+		font-size: 2em;
+	}
+
+
+ p.copyright {
+ 	text-align: right;
+ 	font-size: 1.5em;
+ 	
+ }
+
+ .order {
+ 	color: red;
+ 	font-weight: 800;
+ }
+
+
+ @media (max-width: 500px) and (min-width: 300px) {
+
+	.info {
+		flex-direction: column;
+	}
+}
+
+
+
+</style>
+
+	<body>
+		<h1>Zefir</h1>
+		<div class="gallery">
+				<div class="galleryItem"><img src="assets/zefir/one.jpeg" alt=""></div>
+				<div class="galleryItem"><img src="assets/zefir/two.jpeg" alt=""></div>
+				<div class="galleryItem"><img src="assets/zefir/three.jpeg" alt=""></div>
+				<div class="galleryItem"><img src="assets/zefir/four.png" alt=""></div>
+		</div>
+		<div class="info">
+			<div>
+				<h2>1. CHOOSE Taste:</h2>
+				<ul>
+					<li>Lavender</li>
+					<li>Apple</li>
+					<li>Blueberry</li>
+					<li>Vanila</li>
+				</ul>
+			</div>
+			<div>
+				<h4> + </h4>
+			</div>
+			<div>
+				<h2>2. CHOOSE Decoration:</h2>
+				<ul>
+					<li>On stick</li>
+					<li>Regular</li>
+				</ul>
+			</div>
+			<div>
+				<h4> + </h4>
+			</div>
+			<div>
+				<h2>3.CHOOSE Packaging:</h2>
+				<ul>
+					<li> 10 Squares 1.3 lb Zefir = 40 $  </li>
+					<li> 8 Roses 1 lb Zefir = 30$ </li>
+					<li> 20 Roses and 20 Squares 2.2 lb Zefir = 50 $</li>
+				</ul>
+			</div>
+			<div>
+				<h4> = </h4>
+			</div>
+			<div class=ordersection>
+					<p class="order">5.Send Your Order by:</p>
+					<p>Email: <strong>nyamamnumberone@gmail.com</strong> </p>
+					<p> OR </p>
+					<p>Phone#: <strong> +1 647 870 2171 </strong> </p>
+			</div>
+		</div>
+	</body>
+				
+		
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="https://raw.githubusercontent.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.js"></script>
+
+	<script>
+		
+	$(function(){
+
+		$('.gallery').flickity();
+		$('a').smoothScroll();
+	})
+
+	</script>
+	
+</html>
