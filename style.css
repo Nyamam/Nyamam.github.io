@@ -228,11 +228,12 @@ footer {
 
 .mail {
 	text-decoration: none;
-	font-size: 2.5em;
+	font-size: 2.3em;
 	color: white;
 }
 
  .phone {
+ 	text-decoration: none;
  	color: white;
  	font-size: 2em;
 
