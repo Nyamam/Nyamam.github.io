@@ -278,7 +278,7 @@ p.copyright {
 	color: white;
 }
 
- .phone {
+ p.phone {
  	text-decoration: none;
  	color: white;
  	font-size: 1.3em;
@@ -318,7 +318,7 @@ header h1 {
 	color: white;
 }
 
- .phone {
+ p.phone {
  	text-decoration: none;
  	color: white;
  	font-size: 1.3em;
