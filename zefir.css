@@ -1,0 +1,86 @@
+	body {
+		padding-bottom: 250px;
+		font-size: 62.5%;
+		font-family: "Open Sans",cursive;
+		color: white;
+		max-width: 1080px;
+		margin: 0 auto;
+		background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+		}
+
+	.gallery {
+		width: 400px;
+		height: 400px;
+		margin: 0 auto;
+	}
+
+	.galleryItem img {
+		width: 400px;
+		height: 400px;
+	}
+	
+	h1 {
+		font-family: 'Tangerine', cursive;
+		font-size: 4em;
+		color: white;
+		text-align: center;	
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+
+	h2 {
+		font-family: 'Amatic SC', cursive;
+ 		font-size: 2em;
+ 		color:rgb(139,0,0);
+	}
+
+	h4 {
+		font-family: 'Tangerine', cursive;
+		font-size: 5em;
+		color: red;
+
+	}
+	
+	ul {
+		font-family: 'Amatic SC', cursive;
+		font-size: 2em;
+	}
+
+	.info {
+		display: flex;
+		justify-content: space-around;
+		padding-top: 50px;
+		text-align: center;
+	}
+
+	p {
+		font-family: 'Amatic SC', cursive;
+		font-size: 2em;
+	}
+
+	.mail {
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: "Open Sans",cursive;
+	color: white;
+}
+
+
+ p.copyright {
+ 	text-align: right;
+ 	font-size: 1.5em;
+ 	
+ }
+
+ .order {
+ 	color: red;
+ 	font-weight: 800;
+ }
+
+
+ @media (max-width: 500px) and (min-width: 300px) {
+
+	.info {
+		flex-direction: column;
+	}
+}
