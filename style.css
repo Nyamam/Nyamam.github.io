@@ -232,9 +232,11 @@ footer {
 	font-size: 2em;
 }
 
-#top { 
- 	color: black; 
- 	list-style-type: none;
+ #top { 
+ 	color: black;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: white;
  }
 
 
