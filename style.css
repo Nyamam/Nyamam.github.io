@@ -232,7 +232,10 @@ footer {
 	font-size: 2em;
 }
 
-
+#top { 
+ 	color: black; 
+ 	list-style-type: none;
+ }
 
 
 
